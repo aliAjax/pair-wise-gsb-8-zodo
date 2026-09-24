@@ -1,2 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
 :root{font-family:'DM Sans';color:#26343a;background:#f7f5f0}*{box-sizing:border-box}body{margin:0}button,input,textarea,select{font:inherit}button{cursor:pointer;border:0}.shell{display:flex;min-height:100vh}aside{width:240px;background:#202c32;color:#dce5df;padding:27px 16px;display:flex;flex-direction:column}.logo{font:600 13px 'DM Mono';letter-spacing:.08em}.logo span{color:#d8a153;font-size:20px;margin-right:7px}.campaign{background:#2b3a40;margin-top:47px;padding:14px;border:1px solid #405057;border-radius:7px}.campaign small,.campaign span{display:block;color:#93a7a4;font-size:11px}.campaign strong{display:block;font:600 20px 'Space Grotesk';margin:6px 0}.campaign span{font:10px 'DM Mono'}nav{display:grid;gap:5px;margin-top:25px}nav button,.side-bottom button{color:#99aeab;background:none;text-align:left;padding:11px 12px;border-radius:6px;display:flex;align-items:center;gap:13px}nav button.active{background:#d8a153;color:#202c32}nav i{font-style:normal;font-size:18px}.side-bottom{margin-top:auto;display:grid;gap:14px}.side-bottom small{font:10px 'DM Mono';color:#748886;padding-left:12px}main{flex:1;min-width:0}header{height:122px;padding:30px 48px 22px;border-bottom:1px solid #dde0db;display:flex;justify-content:space-between;align-items:end}.crumb,.timeline-intro>div>span{font:10px 'DM Mono';letter-spacing:.1em;color:#899590}h1{font:600 31px 'Space Grotesk';letter-spacing:-.06em;margin:6px 0 0}.actions{display:flex;gap:9px}.outline,.primary{padding:10px 14px;border-radius:5px;font-size:12px;font-weight:600}.outline{background:#fff;border:1px solid #d3d9d4;color:#566763}.primary{background:#273b3e;color:#fff}.timeline-layout{display:grid;grid-template-columns:minmax(460px,1fr) minmax(330px,39%);min-height:calc(100vh - 122px)}.timeline{padding:42px 44px}.timeline-intro{display:flex;align-items:end;justify-content:space-between;margin-bottom:32px}.timeline-intro h2{font:600 24px 'Space Grotesk';margin:7px 0 0;letter-spacing:-.04em}.count{font:10px 'DM Mono';color:#8c9a96}.chapter{display:grid;grid-template-columns:74px 28px 1fr 22px;gap:13px;width:100%;padding:0 0 28px;text-align:left;background:none}.date{text-align:right;padding-top:4px}.date b{display:block;font:13px 'DM Mono'}.date small{color:#98a19d;font:10px 'DM Mono'}.line{position:relative;display:flex;align-items:flex-start;justify-content:center}.line span{width:11px;height:11px;border:3px solid #f7f5f0;border-radius:50%;z-index:1;outline:1px solid #a8b6af}.line>i{position:absolute;width:1px;background:#cbd5ce;top:11px;bottom:-28px}.chapter:last-child .line>i{display:none}.chapter-copy{padding:0 0 0 5px}.chapter:hover .chapter-copy,.chapter.selected .chapter-copy{transform:translateX(4px)}.chapter-copy h3{font:600 18px 'Space Grotesk';margin:7px 0 6px;letter-spacing:-.03em}.chapter-copy p{font-size:12px;color:#7a8883;margin:0;max-width:350px}.tag{font:10px 'DM Mono';color:#a07232;background:#f1e6d4;padding:4px 7px;border-radius:3px}.arrow{font-size:18px;color:#8a9690;padding-top:5px}.chapter.selected .chapter-copy h3{color:#ae7125}.detail-panel{background:#edf0ea;border-left:1px solid #dce2da;padding:46px 40px}.detail-cover{aspect-ratio:1.6;border-radius:7px;padding:17px;display:flex;justify-content:space-between;font:10px 'DM Mono';color:#34413f}.detail-cover i{font-size:39px;color:#f4f0d2}.detail-body{padding-top:29px}.detail-body h2{font:600 30px 'Space Grotesk';letter-spacing:-.06em;margin:13px 0}.detail-body>p{color:#687772;font-size:13px;line-height:1.7}.meta-grid{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid #d6ddd6;border-bottom:1px solid #d6ddd6;padding:15px 0;margin-top:28px}.meta-grid small,.meta-grid strong{display:block}.meta-grid small{font:10px 'DM Mono';color:#8a9892}.meta-grid strong{font-size:12px;margin-top:5px}.note{display:flex;align-items:center;gap:10px;margin-top:25px;color:#76847f}.note>span{font-size:20px}.note strong{font-size:12px}.note p{font-size:11px;margin:3px 0}.note button{margin-left:auto;color:#a66d2d;font-size:11px}.cards{padding:44px;display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.section-note{grid-column:1/-1;color:#788580;font-size:13px;margin-bottom:5px}.char-card{background:#fff;border:1px solid #e0e3de;border-radius:8px;padding:20px;display:flex;align-items:center;gap:13px}.avatar{width:46px;height:46px;border-radius:50%;display:grid;place-items:center;font:600 20px 'Space Grotesk';color:#243238}.char-card small{font:10px 'DM Mono';color:#8e9995}.char-card h3{font:600 20px 'Space Grotesk';margin:3px 0}.char-card p{font-size:11px;color:#88938f;margin:0}.char-card button{margin-left:auto;color:#a56c27;font-size:18px}.empty{padding:100px 12%;text-align:center;color:#74827e}.empty>div:first-child{font-size:45px;color:#d09a4c}.empty h2{font:600 29px 'Space Grotesk';color:#29383d;margin:12px 0}.empty p{font-size:13px}.place-list{max-width:420px;margin:28px auto;text-align:left;display:grid;gap:7px}.place-list span{background:#fff;padding:13px;border:1px solid #e1e5e0;border-radius:5px;font-size:13px}.place-list b{float:right;font:10px 'DM Mono';color:#799787}.modal-bg{position:fixed;inset:0;background:#20303466;display:grid;place-items:center}.modal{width:min(440px,92vw);background:#f8f7f2;padding:30px;border-radius:8px;box-shadow:0 15px 40px #20303440;position:relative;display:grid;gap:15px}.modal h2{font:600 25px 'Space Grotesk';margin:0 0 4px}.modal label{font-size:11px;color:#6d7b76;display:grid;gap:6px}.modal input,.modal textarea,.modal select{border:1px solid #d4dcd5;border-radius:5px;padding:10px;background:#fff;outline:none}.close{position:absolute;right:18px;top:15px;font-size:25px;color:#899590;background:none}.full{width:100%;margin-top:3px}.toast{position:fixed;right:24px;bottom:22px;background:#23383c;color:#fff;padding:11px 16px;border-radius:5px;font-size:12px}@media(max-width:800px){aside{display:none}header{padding:25px 20px}.timeline-layout{display:block}.timeline{padding:32px 20px}.detail-panel{border-left:0}.cards{padding:25px 20px;grid-template-columns:1fr}.actions .outline{display:none}}
+
+/* ---------------- 多战役手册 ---------------- */
+.campaign{width:100%;background:#2b3a40;margin-top:47px;padding:14px;border:1px solid #405057;border-radius:7px;text-align:left;color:inherit;transition:border-color .15s}
+.campaign:hover{border-color:#d8a153}
+.campaign small{display:block;color:#93a7a4;font-size:11px}
+.campaign strong{display:block;font:600 20px 'Space Grotesk';margin:6px 0}
+.campaign span{display:block;font:10px 'DM Mono';color:#93a7a4}
+.campaign-switch{margin-top:9px;color:#d8a153!important;font-size:11px!important}
+.modal-sub{font-size:12px;color:#7a8883;line-height:1.7;margin:0 0 4px}
+.modal-sub.dim{color:#98a19d}
+.wide-modal{width:min(560px,94vw)}
+.camp-list{display:grid;gap:8px;margin:6px 0 10px;max-height:46vh;overflow:auto}
+.camp-item{display:flex;align-items:center;gap:12px;background:#fff;border:1px solid #e0e3de;border-radius:7px;padding:13px 15px;text-align:left;color:inherit}
+.camp-item:hover{border-color:#d8a153}
+.camp-item.current{border-color:#d8a153;background:#fdf8ef}
+.camp-item .dot{width:9px;height:9px;border-radius:50%;flex:none}
+.camp-item .grow{flex:1;min-width:0}
+.camp-item strong{display:block;font:600 15px 'Space Grotesk'}
+.camp-item small{display:block;font:10px 'DM Mono';color:#8a9892;margin-top:3px}
+.camp-item .on{font:10px 'DM Mono';color:#fff;background:#93b7a6;border-radius:3px;padding:3px 7px}
+.camp-item .go{font-size:11px;color:#a56c27}
+.link-btn{background:none;color:#8a9892;font-size:11px;text-align:center;padding:4px}
+.link-btn:hover{color:#a56c27}
+
+/* ---------------- 参与者勾选 ---------------- */
+.picker{border:1px solid #e0e3de;border-radius:7px;padding:12px;background:#fff}
+.picker-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:9px}
+.picker-head small{font:10px 'DM Mono';color:#8a9892}
+.picker-head button{background:none;color:#a56c27;font-size:11px;font-weight:600}
+.picker-grid{display:grid;grid-template-columns:1fr 1fr;gap:7px}
+.pick{display:flex;align-items:center;gap:9px;border:1px solid #e3e7e2;border-radius:6px;padding:8px 10px;cursor:pointer;font-size:12px}
+.pick.on{border-color:#d8a153;background:#fdf8ef}
+.pick input{accent-color:#a56c27}
+.pick .grow{min-width:0}
+.pick b{display:block;font-size:12px}
+.pick small{display:block;font:10px 'DM Mono';color:#8a9892;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.avatar.sm{width:30px;height:30px;font-size:13px;flex:none}
+.picker-empty{font-size:12px;color:#8a9892;margin:2px 0}
+.picker-empty span{color:#a56c27;cursor:pointer;text-decoration:underline}
+.form-error{font-size:11px;color:#b0583f;background:#f8e9e4;border:1px solid #ecc9bd;border-radius:5px;padding:8px 10px}
+
+/* ---------------- 章节参与者展示 ---------------- */
+.cast-line{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}
+.cast-line span{font:10px 'DM Mono';color:#6e7f7a;background:#e9ede7;border-radius:10px;padding:2px 8px}
+.cast-line span.gone{color:#9aa39e;background:none;text-decoration:line-through;position:relative;padding-left:15px}
+.cast-line span.gone::before{content:'已离队';text-decoration:none;position:absolute;left:0;font-size:9px;color:#b08a55}
+.cast-block{margin-top:22px}
+.cast-block>small{font:10px 'DM Mono';color:#8a9892;display:block;margin-bottom:9px}
+.cast-block>div{display:flex;flex-wrap:wrap;gap:7px}
+.chip{font-size:11px;background:#fff;border:1px solid #dfe4de;border-left:3px solid var(--c,#d8a153);border-radius:12px;padding:4px 11px}
+.chip.gone{color:#94a09b;border-color:#e6e4de;border-left-color:#c9bfae;background:#faf8f3}
+.legacy-note{font:11px 'DM Mono';color:#9a7b45;background:#f6efe2;border-radius:5px;padding:8px 10px;margin-top:12px!important}
+
+/* ---------------- 空态 / 卡片 / 移除确认 ---------------- */
+.block-empty{border:1px dashed #d3dad4;border-radius:8px;background:#fff;padding:40px 24px;text-align:center;color:#7d8b86}
+.block-empty>div{font-size:32px;color:#c9a86a}
+.block-empty h3{font:600 18px 'Space Grotesk';margin:10px 0 6px;color:#2c3b3e}
+.block-empty p{font-size:12px;margin:0 0 16px}
+.block-empty.wide{grid-column:1/-1}
+.block-empty.panel{margin-top:30px}
+.char-card{position:relative}
+.remove-btn{position:absolute;right:12px;top:10px;color:#b3bdb8;font-size:16px;background:none;padding:2px 6px;border-radius:4px}
+.remove-btn:hover{color:#b0583f;background:#f8e9e4}
+.ref-list{list-style:none;margin:6px 0;padding:0;display:grid;gap:6px;max-height:34vh;overflow:auto}
+.ref-list li{display:flex;align-items:center;gap:10px;background:#fff;border:1px solid #e6e9e4;border-radius:6px;padding:9px 12px}
+.ref-list b{font-size:12px;flex:1}
+.ref-list small{font:10px 'DM Mono';color:#8a9892}
+.confirm-row{display:flex;gap:9px;margin-top:4px}
+.confirm-row .outline{flex:1}
+.danger{flex:2;background:#9c4f3b;color:#fff;border-radius:5px;font-size:12px;font-weight:600;padding:10px 14px}
+.danger:hover{background:#8a4533}
+.modal{max-height:92vh;overflow:auto}
+@media(max-width:560px){.picker-grid{grid-template-columns:1fr}}
